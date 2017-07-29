@@ -1,0 +1,16 @@
+{
+    "name": "jeffersonsalvador/lotofacil",
+    "description": "Script para gerarcombinações de bilhetes e conferir resultados",
+    "authors": [
+        {
+            "name": "Jefferson Salvador",
+            "email": "jeffersonsalvador@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+	    "psr-4" : {
+	        "JSC\\Lotofacil\\" : "vendor/lotofacil"
+	    }
+	}
+}

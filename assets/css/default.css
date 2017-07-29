@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+}
+div.numeros {
+	float: left;
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin: 5px;
+}
+
+.resultado {
+	margin: 2px;
+}
