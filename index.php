@@ -18,14 +18,14 @@ if (isset($_GET['sorteio'])) {
 </head>
 <body>
 	<?php
-	$fixos = [11, 13, 24];
-	$fora = [1, 25];
+	$fixos = [1, 2, 6];
+	$fora = [4, 21];
 	$obSorteio = new Sorteio($fixos, $fora);
 	?>
 	<div class="container">
 		<h1>Sorteio Lotofácil</h1>
 		<div class="col-md-8">
-			<?php $obSorteio->getApostas($sorteados); ?>
+			<?php $obSorteio->getApostas($random = true, $sorteados); ?>
 		</div>
 		<div class="col-md-4">
 			<strong>03 números mais sorteados nos últimos 10 sorteios</strong>
