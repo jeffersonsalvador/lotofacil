@@ -45,12 +45,6 @@ class Sorteio
 				$y++;
 			}
 		}
-		/*
-		echo '<pre>';
-		print_r($grupos); 
-		echo '</pre>';
-		*/
-		//exit;
 
 		$jogos = '';
 		for ($x = 1; $x <= 5; $x++ ) {

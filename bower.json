@@ -1,0 +1,21 @@
+{
+  "name": "lotofacil",
+  "homepage": "https://github.com/jeffersonsalvador/lotofacil",
+  "authors": [
+    "Jefferson Salvador <jeffersonsalvador@gmail.com>"
+  ],
+  "description": "Sistema de geração e conferência de apostas",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "package.json",
+    "src"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

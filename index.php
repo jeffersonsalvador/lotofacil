@@ -13,7 +13,7 @@ if (isset($_GET['sorteio'])) {
 <head>
 	<title>Sorteio Lotofacil</title>
 	<!-- Bootstrap -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/default.css" rel="stylesheet">
 </head>
 <body>
@@ -28,7 +28,7 @@ if (isset($_GET['sorteio'])) {
 			<?php $obSorteio->getApostas($random = true, $sorteados); ?>
 		</div>
 		<div class="col-md-4">
-			<strong>03 números mais sorteados nos últimos 10 sorteios</strong>
+			<strong>Escolha 03 números mais sorteados nos últimos 10 sorteios</strong>
 			<h4><?= $obSorteio->getMaisSorteados(); ?></h4>
 			<strong>02 números menos sorteados nos últimos 10 sorteios</strong>
 			<h4><?= $obSorteio->getMenosSorteados(); ?></h4>
@@ -52,8 +52,7 @@ if (isset($_GET['sorteio'])) {
 	</div>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/components/jquery/dist/jquery.min.js"></script>
+    <script src="assets/components/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
